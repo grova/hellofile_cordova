@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="it.y3web.BSynchPush" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloFile</name>
+<widget id="it.y3web.BSyncPush" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Storci Sync</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Storci Sync Application
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
@@ -22,6 +22,22 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <icon src="icon.png" />
+    <icon height="57" platform="ios" src="res/icon/ios/icon-57.png" width="57" />
+    <icon height="72" platform="ios" src="res/icon/ios/icon-72.png" width="72" />
+    <icon height="114" platform="ios" src="res/icon/ios/icon-57-2x.png" width="114" />
+    <icon height="144" platform="ios" src="res/icon/ios/icon-72-2x.png" width="144" />
+    <icon platform="blackberry" src="res/icon/blackberry/icon-80.png" />
+    <icon gap:state="hover" platform="blackberry" src="res/icon/blackberry/icon-80.png" />
+    <icon platform="webos" src="res/icon/webos/icon-64.png" />
+    <icon platform="winphone" src="res/icon/windows-phone/icon-48.png" />
+    <icon platform="winphone" role="background" src="res/icon/windows-phone/icon-173-tile.png" />
+    <splash height="480" platform="ios" src="res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <splash height="960" platform="ios" src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+    <splash height="1136" platform="ios" src="res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
+    <splash height="1004" platform="ios" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
+    <splash height="748" platform="ios" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
+    <splash src="res/screen/ios/Default@2x~universal~anyany.png" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="iosPersistentFileLocation" value="Library" />
     <engine name="ios" spec="^4.5.3" />
